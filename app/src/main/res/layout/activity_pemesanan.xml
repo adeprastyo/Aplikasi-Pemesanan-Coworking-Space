@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pemesanan">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="PEMESANAN"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtNama"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/header"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:text="nama"-->
+<!--        android:textSize="30dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtNoHp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="no hp"-->
+<!--        android:textSize="30dp"-->
+<!--        android:layout_below="@+id/txtNama"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="20dp"/>-->
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:editable="false"
+        android:hint="Nama"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editInstansi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:editable="false"
+        android:hint="Asal Instansi"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editNoHp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editInstansi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:editable="false"
+        android:hint="Phone"
+        android:textAlignment="center" />
+
+<!--    <Spinner-->
+<!--        android:id="@+id/sp_ruangan"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/editNoHp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:textAlignment="center" />-->
+
+    <EditText
+        android:id="@+id/editRoom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNoHp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:editable="false"
+        android:hint="Ruangan"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/jenis"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editRoom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:editable="false"
+        android:hint="Jenis Ruangan"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/start_datetime"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jenis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:hint="Pilih Tanggal dan Waktu Mulai"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/end_datetime"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_datetime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:hint="Pilih Tanggal dan Waktu Selesai"
+        android:inputType="none"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/harga"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/end_datetime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:editable="false"
+        android:hint="Harga"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnpesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Pesan" />
+
+</RelativeLayout>

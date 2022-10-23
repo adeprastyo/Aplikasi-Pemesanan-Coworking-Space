@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Office Coworking Space</string>
+
+    <string name="produk">Produk</string>
+    <string name="orders">Orders</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="tf">Silahkan</string>
+    <string name="Detail">Detail</string>
+
+</resources>
